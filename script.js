@@ -26,9 +26,9 @@ function wishme(){
     }
 
 }
-setTimeout(function() {
-    location.reload(); // Reloads the page
-}, 5000); // Refreshes the page after 5 seconds
+// setTimeout(function() {
+//     location.reload(); // Reloads the page
+// }, 5000); // Refreshes the page after 5 seconds
 
 // window.addEventListener('load',()=>{
 //     wishme();
