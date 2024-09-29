@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 20, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 30vw;
+}
+h1{
+    color: aliceblue;
+    
+}
+#name{
+    color: rgb(177, 14, 241);
+    font-size: 2.9rem;
+    font-weight: 5rem;
+}
+#va{
+    color: rgb(29, 78, 238);
+    font-size: 2.9rem;
+    font-weight: 5rem;
+}
+#voice{
+    width: 200px;
+    display: none;
+}
+#btn
+{
+    width: 25%;
+    background:linear-gradient(to right,rgb(81, 81, 177),rgb(185, 27, 185),rgb(39, 168, 243));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    border: none;
+    transition:all 0.5s ;
+}
+#btn:hover{
+    cursor: pointer;
+    letter-spacing: 3px;
+}
